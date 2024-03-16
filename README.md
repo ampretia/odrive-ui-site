@@ -1,16 +1,16 @@
-![](./src/assets/drive-logo.png)
+<p align="center">
+  <a href="https://github.com/ampretia/odrive-edge-controller"><img src="./src/assets/drive-logo.png"></a>
+</p>
+<p align="center">
+| <a href="https://github.com/ampretia/odrive-edge-controller">Edge Controller</a> | <a href="https://github.com/ampretia/odrive-ui-site">Drive Game Site</a> |
+</p>
 
-# Drive
+# *ODrive* - Ampretia does Anki Overdive
 
-## Development
+## Notice
 
-Use the 'mock' websockets server.
+__This is not affiliated endorsed or connected with Anki, either the original company or the current trademark holder.__
 
-## Protocol
+Thanks must go to those who have published similar work online; _"if I have seen further it is because I've stood on the shoulders of giants"_
 
-from_ctrler
-
-- response = cars
-           = layout
-           = event
-
+My code, logo, and documentation is distributed under the Apache-2.0 license.
