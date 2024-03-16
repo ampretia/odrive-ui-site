@@ -1,0 +1,32 @@
+namespace drive;
+
+union Events {
+    CarScanEvent, LayoutEvent, CarDriveEvent
+}
+
+table CarScanEvent {
+    name: string;
+    address: string;
+}
+
+table LayoutEvent {
+    track: [TrackPiece];
+}
+
+table CarDriveEvent {
+    name: string;
+}
+
+enum TrackType: ubyte {undefined, straight, curve}
+enum TrackTurn: ubyte {undefined, left, right}
+
+struct TrackPiece {
+    lid: uint;
+    type: TrackType;
+    turn: TrackTurn;
+}
+
+table Message {
+    event: Events;
+}
+
